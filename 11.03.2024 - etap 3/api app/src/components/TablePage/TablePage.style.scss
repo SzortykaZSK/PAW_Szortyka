@@ -1,0 +1,19 @@
+.mainTableContainer{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.formContainer{
+    width:30%;
+    height:90%;
+    border-right:2px solid dimgray
+}
+.dataContainer{
+    width:60%;
+    height:90%;
+}

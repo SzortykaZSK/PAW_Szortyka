@@ -1,0 +1,18 @@
+table{
+    width:80%;
+    margin:5px 100px 0 100px;
+
+    & thead tr{
+        background-color: dimgray;
+        height:70px;
+    }
+
+    & tbody tr{
+        text-align: center;
+        background-color: #000;
+        height:50px;
+    }
+    & tbody tr:hover{
+        background-color: #646cff;
+    }
+}
