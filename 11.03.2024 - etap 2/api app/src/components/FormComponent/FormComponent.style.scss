@@ -1,0 +1,32 @@
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding:20px;
+    
+    & input, select{
+        margin:5px;
+        width:250px;
+        border-radius: 10px;
+        height:30px;
+        font-size: 20px;
+        border:none;
+        padding:5px;
+    }
+
+    & input[type='submit']{
+        background-color: #646cff;
+        height:40px;
+    }
+
+    & select{
+        margin-bottom:50px;
+        height:50px;
+    }
+    & select:active, select:focus{
+        border:none;
+        outline:none;
+    }
+}
